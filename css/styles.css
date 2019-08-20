@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+}
+
+p {
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float; left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  body {
+    background-color: green;
+    color: purple;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-color: teal;
+    color: red;
+    font-size: 30;
+  }
+}
